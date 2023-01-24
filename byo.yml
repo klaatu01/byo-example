@@ -1,3 +1,14 @@
 vars:
-  - name:
-      type: string
+  - key: name
+    help: Name of the service
+  - key: multi_select
+    help: choose value of thing
+    values: 
+      - a
+      - b
+      - c
+flags:
+  - key: example
+    help: example flag
+
+
