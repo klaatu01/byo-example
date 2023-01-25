@@ -1,1 +1,18 @@
-#[name]
+# This file is the readme for #[project_name]
+
+#[project_name] is a #[project_type]
+
+
+#START[show_description]
+#START[project_type:service]
+## Service
+
+specifcs about service
+#END[project_type:service]
+
+#START[project_type:package]
+## Package 
+
+specifics about package
+#END[project_type:package]
+#END[show_description]

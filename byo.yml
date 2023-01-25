@@ -1,14 +1,12 @@
 vars:
-  - key: name
+  - key: project_name
     help: Name of the service
-  - key: multi_select
-    help: choose value of thing
+  - key: project_type
+    help: Type of project
     values: 
-      - a
-      - b
-      - c
+      - service
+      - package
 flags:
-  - key: example
-    help: example flag
-
+  - key: show_description
+    help: show the description
 
