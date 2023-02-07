@@ -1,5 +1,5 @@
-# This file is the readme for {{ project_name | lower }}
-{{project_name}} is a {{project_type | upper }}
+# This file is the readme for {{ project_name | downcase }}
+{{project_name}} is a {{project_type | upcase }}
 {% if show_description %}
 {% if project_type == 'service' %}
 ## Service
