@@ -1,18 +1,12 @@
-# This file is the readme for #[project_name]
-
-#[project_name] is a #[project_type]
-
-
-#START[show_description]
-#START[project_type:service]
+# This file is the readme for {{ project_name | lower }}
+{{project_name}} is a {{project_type | upper }}
+{% if show_description %}
+{% if project_type == 'service' %}
 ## Service
-
 specifcs about service
-#END[project_type:service]
-
-#START[project_type:package]
+{% endif %}
+{% if project_type == 'package' %}
 ## Package 
-
 specifics about package
-#END[project_type:package]
-#END[show_description]
+{% endif %}
+{% endif %}
